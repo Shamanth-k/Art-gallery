@@ -113,13 +113,19 @@ This project is a full-stack web application for an **Art Gallery**. It allows u
 
 ## How to Run
 
-1. **Install dependencies** in both the root and backend folders:
+1. **Install dependencies** in both the frontend and backend folders:
    ```bash
+   cd frontend
    npm install
+   cd ..
    cd backend
    npm install
    cd ..
    ```
+   > **Note:** If `npm install` gives an error, try:
+   > ```bash
+   > npm i --legacy-peer-deps
+   > ```
 2. **Set up MySQL database** using the provided SQL scripts in the `scripts/` folder.
 3. **Create a `.env` file in the `backend/` directory** with your database and environment configuration (see below for an example).
 4. **Start the backend server**:
