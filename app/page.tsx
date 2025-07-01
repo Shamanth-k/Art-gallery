@@ -161,19 +161,19 @@ export default function HomePage() {
               {
                 title: "Neon Dreams",
                 artist: "Maya Chen",
-                image: "/placeholder.svg?height=300&width=400",
+                image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop",
                 description: "A vibrant exploration of cyberpunk aesthetics",
               },
               {
                 title: "Quantum Flux",
                 artist: "Elena Volkov",
-                image: "/placeholder.svg?height=300&width=400",
+                image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop",
                 description: "Physics meets art in this dynamic piece",
               },
               {
                 title: "Virtual Aztec",
                 artist: "Alex Rivera",
-                image: "/placeholder.svg?height=300&width=400",
+                image: "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?w=400&h=300&fit=crop",
                 description: "Traditional culture in digital space",
               },
             ].map((artwork, index) => (

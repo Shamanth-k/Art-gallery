@@ -12,8 +12,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Future Gallery - Digital Art Experience",
-  description: "Experience art in the digital age with immersive exhibitions and visionary artists",
-    generator: 'v0.dev'
+  description: "Experience art in the digital age with immersive exhibitions and visionary artists"
 }
 
 export default function RootLayout({

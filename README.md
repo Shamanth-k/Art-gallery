@@ -11,6 +11,22 @@ This project is a full-stack web application for an **Art Gallery**. It allows u
 
 ---
 
+## Screenshots
+
+| Home Screen | Exhibition Page | Artist Page |
+|---|---|---|
+| ![Home Screen](screenshots/home%20screen.png) | ![Exhibition Page](screenshots/exhibition%20page.png) | ![Artist Page](screenshots/artist%20page.png) |
+
+| Add Artist | Add Exhibition | Buy Ticket |
+|---|---|---|
+| ![Add Artist](screenshots/add%20new%20artist.png) | ![Add Exhibition](screenshots/add%20exhibition.png) | ![Buy Ticket](screenshots/buy%20ticket.png) |
+
+| My Tickets | Login Page | Sign Up Page |
+|---|---|---|
+| ![My Tickets](screenshots/my%20tickets.png) | ![Login Page](screenshots/login%20page.png) | ![Sign Up Page](screenshots/sign%20up%20page.png) |
+
+---
+
 ## Key Features
 
 ### User Features

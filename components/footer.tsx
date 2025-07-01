@@ -59,11 +59,11 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-2 text-slate-400 text-sm">
                 <Phone className="h-4 w-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 1234567890</span>
               </div>
               <div className="flex items-center space-x-2 text-slate-400 text-sm">
                 <MapPin className="h-4 w-4" />
-                <span>Digital Realm, Metaverse</span>
+                <span>Mangalore</span>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ export function Footer() {
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center">
           <p className="text-slate-400 text-sm">
-            © 2024 Future Gallery. All rights reserved. Crafted with ❤️ for art lovers.
+            © 2024 Future Gallery. All rights reserved.
           </p>
         </div>
       </div>
