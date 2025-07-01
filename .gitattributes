@@ -1,0 +1,20 @@
+* text=auto eol=lf
+
+# Treat these file types as binary (no line ending conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.mp4 binary
+*.mp3 binary
+*.mov binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary 

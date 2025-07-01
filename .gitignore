@@ -1,0 +1,62 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node modules
+node_modules/
+backend/node_modules/
+
+# Build output
+.next/
+out/
+dist/
+build/
+backend/dist/
+backend/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*
+backend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.local
+*.cache
+.cache/
+coverage/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Public/static cache
+public/*.tmp
+public/*.cache
+
+# Database
+*.sqlite
+*.db
+*.db-journal
+
+# Others
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
