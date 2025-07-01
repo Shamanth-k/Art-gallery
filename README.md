@@ -113,12 +113,36 @@ This project is a full-stack web application for an **Art Gallery**. It allows u
 
 ## How to Run
 
-1. **Install dependencies** in both root and backend folders.
-2. **Set up MySQL database** using the provided SQL scripts.
-3. **Configure environment variables** for DB connection.
-4. **Start backend server** (`node backend/server.js` or `npm run dev`).
-5. **Start frontend** (`npm run dev` in root).
-6. **Access the app** at `http://localhost:3000`.
+1. **Install dependencies** in both the root and backend folders:
+   ```bash
+   npm install
+   cd backend
+   npm install
+   cd ..
+   ```
+2. **Set up MySQL database** using the provided SQL scripts in the `scripts/` folder.
+3. **Create a `.env` file in the `backend/` directory** with your database and environment configuration (see below for an example).
+4. **Start the backend server**:
+   ```bash
+   cd backend
+   npm run dev
+   ```
+5. **Start the frontend** (in a new terminal, from the root):
+   ```bash
+   npm run dev
+   ```
+6. **Access the app** at [http://localhost:3000](http://localhost:3000)
+
+### Example `.env` file for backend
+```
+DB_HOST=localhost
+DB_PORT=3307
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=art__gallery
+JWT_SECRET=your_jwt_secret
+FRONTEND_URL=http://localhost:3000
+```
 
 ---
 
